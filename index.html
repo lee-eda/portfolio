@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Eda's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('DAiGU5bkShl0CfOhC')
+    </script>
+    <script src="js/profile.js"></script>
+    <link rel="stylesheet" href="./css/profile.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Eda's Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#exp">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section id="about">
+        <p class="fs-4">About Me</p>
+        <div class="w3-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./imgs/me.png" class="rounded" width="100%">
+                </div>
+                <div class="col img-flex">
+                Hi there! I'm Eda, a final year undergraduate at NUS studying Data Science and Analytics. I've always been interested in numbers and problem solving, taking part in numerous Math Olympiad competitions since young. I am passionate in leveraging data-driven insights and machine learning to solve complex, real-world problems. In my free time, I enjoy playing ultimate frisbee and squash with friends, or going to the gym. I also enjoy travelling, exploring new hobbies such as cooking, photography, or working on personal projects such as this website!
+                </div>
+            </div>
+        </div>
+        <div class="mini-section">
+            <p class="fs-5"><i class="fa-solid fa-graduation-cap"></i> Education</p>
+            <p class="time-flex">
+                <b>BSc Hons (Highest Distinction) in Data Science and Analytics<br>
+                National University of Singapore</b>
+                <b>2021 - 2025</b>
+            </p>
+            <p>
+                With Minor in Economics and Specialisation in Statistical Methodology
+            </p>
+        </div>
+        <div class="mini-section">
+            <p class="fs-5"><i class="fa-solid fa-puzzle-piece"></i> Interests</p>
+            <p>Machine Learning, Artificial Intelligence, Frontend Development, Data Analysis, R&D, Problem Solving</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="fs-4">My Skills</p>
+        <div class="mini-section-grey">
+            <p class="fs-5"><i class="fa-solid fa-server"></i> Softwares</p>
+            <p>Python, R, SQL, HTML, CSS, Java, GitHub, Microsoft Excel</p>
+        </div>
+        <div class="mini-section-grey">
+            <p class="fs-5"><i class="fa-solid fa-gears"></i> Technical</p>
+            <p>Machine Learning, Statistical Analysis, Data Analysis, Data Visualisation, R&D, Market Research</p>
+        </div>
+        <div class="mini-section-grey">
+            <p class="fs-5"><i class="fa-solid fa-lightbulb"></i> Power</p>
+            <p>Problem Solving, Project Management</p>
+        </div>
+    </section>
+
+    <section id="exp">
+        <p class="fs-4">My Professional Experience</p>
+        <div class="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                    <p class="no-margin">
+                        <b>Data Analyst Intern, Shopee</b><br>
+                        Aug - Dec 2024
+                    </p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Supported Regional Marketing Analytics team on projects and requests from stakeholders</li>
+                    <li>Performed data extraction, analysis, and quality checks using PrestoSQL</li>
+                    <li>Created and maintained database tables and automated Excel dashboards for recurring analyses</li>
+                    <li>Optimised SQL queries to overcome memory and runtime constraints arising from large volume of data</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    <p class="no-margin">
+                        <b>Machine Learning Research Intern, DSO National Laboratories</b><br>
+                        May - Aug 2024
+                    </p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Researched on use of online ML techniques for incorporating real-time data to enhance prediction of radio frequency communications coverage in outdoor urban environments</li>
+                    <li>Adapted existing state-of-the-art offline models to take in real-time data as input, reducing error rates by up to 80%</li>
+                    <li>Implemented and validated multiple ML algorithms including stochastic gradient descent and conditional GANs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    <p class="no-margin">
+                        <b>Data Science Intern, Actxa</b><br>
+                        Jun - Dec 2023
+                    </p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Improved stress and recovery model through development and fine-tuning of various machine learning models using Python</li>
+                        <li>Developed novel daily stress score based on scientific research and evidence</li>
+                        <li>Evaluated physiological sensor data extensively to identify signal anomalies and trends</li>
+                        <li>Performed comprehensive literature reviews and incorporated findings to improve stress score predictions</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                      <p class="no-margin">
+                          <b>Business Research Intern, Intercedent Asia</b><br>
+                          Jun - Jul 2022
+                      </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ul>
+                        <li>Conducted in-depth market research and analysis to identify emerging trends, competitive landscapes, and growth opportunities within industries</li>
+                        <li>Oversaw a project from initiation to completion, including research process and preparation of reports and presentations</li>
+                        <li>Created data visualisations to summarise research findings in a clear and concise manner</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+
+    <section id="contact">
+        <p class="fs-4">Contact Me</p>
+        <div class="w3-container-contact">
+            <div class="row contact-row">
+                <div class="col-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-phone fa-lg"></i><br>
+                            <b>Mobile</b>
+                        </h5>
+                        <p class="card-text">(65) 9088 9084</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-envelope fa-lg"></i><br>
+                            <b>Email</b>
+                        </h5>
+                        <p class="card-text">leeeda109@gmail.com</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="https://www.linkedin.com/in/lee-eda" class="btn">
+                                <i class="fa-brands fa-linkedin fa-lg"></i><br>
+                                <b>LinkedIn</b>
+                            </a>
+                        </h5>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mini-section-grey">
+            <form id="contact-form">
+                <legend>Get In Touch!</legend>
+                <div class="mb-3">
+                    <label for="user_name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="user_name" name="user_name"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="user_email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="user_email" name="user_email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <input type="text" class="form-control" id="message" name="message" required>
+                </div>
+                <button type="submit" class="btn btn-success" value="submit">Send</button>
+            </form>
+          </div>
+    </section>
+
+</body>
